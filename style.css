@@ -1,0 +1,65 @@
+.body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+  height: 100vh;
+  width: 100%;
+  background-color: aqua;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: bisque;
+  padding: 0 25px;
+  box-sizing: border-box;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.tracker {
+  position: absolute;
+  font-weight: bold;
+  font-size: 20px;
+  right: 50%;
+}
+
+.start-button {
+  position: absolute;
+  height: 50px;
+  width: 100px;
+  background-color: yellow;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 3px 4px teal;
+  right: 18%;
+  cursor: pointer;
+}
+
+.start-button:active {
+  box-shadow: none;
+}
+
+.stop-button {
+  position: absolute;
+  height: 50px;
+  width: 100px;
+  background-color: yellow;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 3px 4px teal;
+  right: 5%;
+  cursor: pointer;
+}
+
+.stop-button:active {
+  box-shadow: none;
+}
